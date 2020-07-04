@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/grey"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/decrementBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:background="@color/pink"
+        android:padding="8dp"
+        android:text="Decrease Count"
+        android:textColor="@color/white" />
+
+    <TextView
+        android:id="@+id/counterTv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Counter = 0"
+        android:textColor="@color/white"
+        android:textSize="24sp" />
+
+    <Button
+        android:id="@+id/incrementBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:background="@color/blue"
+        android:padding="8dp"
+        android:text="Increase Count"
+        android:textColor="@color/white" />
+</LinearLayout>
